@@ -1,0 +1,129 @@
+
+body{
+background-color: black;
+}
+@media only screen and (max-width: 1200px) 
+{}
+.UL1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+  display: flex;
+justify-content:center;
+align-content:center
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: verdana;
+}
+
+li a:hover:not(.active) {
+  background-color:red ;
+}
+#div1{
+background-color: black;
+}
+input{
+font-size:xx-large ;
+}
+.num_tel {
+    color:white;
+    font-size: 10px;
+    float: left;
+    font-family: verdana;
+
+}
+.lien_tel {
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    color: #fff;
+    font-size: 10.3px;
+    z-index: 500;
+    top: 0px;
+    border-bottom: 1px solid;
+    border-color: #505154;
+    display: block;
+    float: left;
+}
+#img1{
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    color: #fff;
+    font-size: 10.3px;
+    z-index: 500;
+    top: 0px;
+    display: block;
+    float: left;
+}
+.store {
+    background: url(../images/stor.png) no-repeat;
+    float: left;
+    display: block;
+    font-family: titilium;
+    color: #fff;
+    padding: 23px 10px 2px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+#p1{
+color:white;
+font-family: verdana;
+margin-top:10%;
+margin-left:5% ;
+}
+#p2{
+color:white;
+font-family: verdana;
+margin-top:2%;
+margin-left:9%;
+}
+#h2{
+font-size: xx-large;
+font-family: verdana;
+color: white;
+margin-top:4%;
+margin-left:35%;
+}
+#div2{
+  display: flex;
+justify-content:center;
+align-content:center;
+margin-top: 1%;
+}
+#a1{
+color: red;
+
+}
+#p3{
+color: red;
+font-family: Verdana;
+margin-left: 30%;
+font-size: x-large;
+}
+#div4{
+  display: flex;
+flex-direction:row;
+}
+button{
+  
+  padding: 14px 40px;
+  border-radius: 8px;
+  background-color: black;
+  color:FireBrick;
+  border: 1px solid FireBrick; /* Green */
+}
+
+

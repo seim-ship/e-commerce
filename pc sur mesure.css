@@ -1,0 +1,134 @@
+
+body{
+background-image: url(https://i.pinimg.com/originals/64/89/e7/6489e723da66101b32bc571a84915610.jpg);
+}
+@media only screen and (max-width: 550px) 
+{}
+.UL1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+  display: flex;
+justify-content:center;
+align-content:center
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: verdana;
+}
+
+li a:hover:not(.active) {
+  background-color:red ;
+}
+#div1{
+background-color: black;
+}
+input{
+font-size:xx-large ;
+}
+.num_tel {
+    color:white;
+    font-size: 10px;
+    float: left;
+    font-family: verdana;
+
+}
+.lien_tel {
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    color: #fff;
+    font-size: 10.3px;
+    z-index: 500;
+    top: 0px;
+    border-bottom: 1px solid;
+    border-color: #505154;
+    display: block;
+    float: left;
+}
+#img1{
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    color: #fff;
+    font-size: 10.3px;
+    z-index: 500;
+    top: 0px;
+    display: block;
+    float: left;
+}
+.store {
+    background: url(../images/stor.png) no-repeat;
+    float: left;
+    display: block;
+    font-family: titilium;
+    color: #fff;
+    padding: 23px 10px 2px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.h1_filtre {
+    color: #000;
+    font-family: verdana;
+    font-size:xx-large ;
+}
+
+#div2{
+background-color: b;
+font-family: verdana;
+}
+h2{
+font-family: Arial, Helvetica, sans-serif;
+}
+div{
+font-size: xx-small;
+}
+#div3{
+  display: flex;
+flex-direction:column;
+}
+#p1{
+color: red;
+}
+#div4{
+font-size: large;
+font-family: verdana;
+}
+.button1 {
+  background-color:black; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#p1{
+color: red;
+}
+
